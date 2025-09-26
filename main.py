@@ -10,7 +10,7 @@ for line in vgsales_file[1:]:
     total_sales = float(name[10])
     how_long_has_it_been = current_year - year
     average_per_year = total_sales / how_long_has_it_been
-    print(f"{rank_of_game} {game_name}  -  {average_per_year:.2f} was the average amount of copies sold per year")
+    print(f"{rank_of_game} {game_name}  -  {average_per_year:.2f} million dollars of revenue on average per year")
 
 
 
